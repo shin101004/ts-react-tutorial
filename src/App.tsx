@@ -5,7 +5,8 @@ import ReducerSample from "./ReducerSample"
 import MyForm from "./MyForm";
 import { SampleProvider } from './SampleContext';
 
-const App=()=>{
+const App = () => {
+
   const onSubmit = (form:{name:string; description:string})=>{
     console.log(form);
   }

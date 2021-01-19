@@ -66,7 +66,7 @@ export const SampleProvider=({children}:{children:React.ReactNode})=>{
         </SampleStateContext.Provider>
     )
 }
-
+ 
 export const useSampleState=()=> {
     const state = useContext(SampleStateContext);
     if(!state) throw new Error(`Cannot find Sample Provider`);

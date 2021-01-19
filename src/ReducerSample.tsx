@@ -1,32 +1,6 @@
 import React, {Reducer, useReducer} from "react";
 import { useSampleDispatch, useSampleState } from "./SampleContext";
-// interface Color {
-//     color : 'red'|'orange'|'yellow';
-// }
 
-// interface Action extends State{
-//     type :{
-//         COUNT:{type:'SET_COUNT'; count : number};
-//         TEXT:{type:'SET_TEXT'; text:string};
-//         COLOR :{type:'SET_COLOR'; color:Color};
-//         TOGGLE:{type:'TOGGLE_GOOD'};
-//     }
-// }
-
-// type Color = 'red' | 'orange' | 'yellow';
-
-// type State = {
-//     count : number;
-//     text : string;
-//     isGood : boolean;
-//     color : Color
-// }
-
-// type Action = 
-//     | {type:'SET_COUNT'; count:number}
-//     | { type:'SET_TEXT'; text:string}
-//     | {type:'SET_COLOR'; color:Color}
-//     | {type:'TOGGLE_GOOD'};
 const ReducerSample=()=> {
     const state = useSampleState();
     const dispatch = useSampleDispatch();
